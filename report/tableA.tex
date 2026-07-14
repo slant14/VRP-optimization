@@ -1,0 +1,26 @@
+\begin{tabular}{llrrrr}
+\toprule
+instance & method & vars & max BQM & best feas.\ dist & gap \\
+\midrule
+C101-$N$5 & exact opt. & --- & --- & 42.4 & --- \\
+C101-$N$5 & FQS & 50 & 50 & 72.7 & 71.5\% \\
+C101-$N$5 & DECOMP-DW & 50 & 10 & 74.7 & 76.2\% \\
+\addlinespace[2pt]
+C101-$N$10 & FQS & 300 & 300 & \textbf{infeasible} & n/a \\
+C101-$N$10 & DECOMP-DW & 162 & 30 & 123.9 & n/a \\
+\addlinespace[2pt]
+R101-$N$5 & exact opt. & --- & --- & 156.3 & --- \\
+R101-$N$5 & FQS & 75 & 75 & 156.4 & 0.1\% \\
+R101-$N$5 & DECOMP-DW & 24 & 15 & 156.6 & 0.2\% \\
+\addlinespace[2pt]
+R101-$N$10 & FQS & 600 & 600 & \textbf{infeasible} & n/a \\
+R101-$N$10 & DECOMP-DW & 99 & 60 & 312.1 & n/a \\
+\addlinespace[2pt]
+RC101-$N$5 & exact opt. & --- & --- & 89.1 & --- \\
+RC101-$N$5 & FQS & 75 & 75 & 155.6 & 74.6\% \\
+RC101-$N$5 & DECOMP-DW & 23 & 15 & 233.9 & 162.5\% \\
+\addlinespace[2pt]
+RC101-$N$10 & FQS & 500 & 500 & 410.3 & n/a \\
+RC101-$N$10 & DECOMP-DW & 120 & 50 & 382.9 & n/a \\
+\bottomrule
+\end{tabular}

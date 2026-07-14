@@ -1,0 +1,5 @@
+instance,coarse_nodes,assign_vars,max_bqm,fqs_vars_equiv,dist,veh,tw_viol,cap_viol,sample_t_s,total_t_s,savings_dist,savings_veh,best_from
+C101.csv,40,560,560,140000,1192.3,13,0,0,10.9,11.6,930.1,12,warmstart
+R101.csv,40,1000,1000,250000,1959.8,24,0,0,15.8,16.5,2002.4,31,warmstart
+RC101.csv,40,920,920,230000,2125.3,22,0,0,14.5,15.2,2134.9,26,warmstart
+C201.csv,40,280,280,70000,1686.5,7,0,0,10.8,11.6,751.8,6,qubo-sampled
